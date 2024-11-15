@@ -185,6 +185,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
+              Text(
+                'El precio indicado es: ${_estimatedPrice.toStringAsFixed(0)}',
+                style: const TextStyle(fontSize: 16),
+              ),
               const SizedBox(height: 16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
